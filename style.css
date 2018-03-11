@@ -1,0 +1,72 @@
+body {
+	border-top: solid 25px #333333;
+}
+
+.container {
+	padding-top: 30px;
+}
+.container h1 {
+	font-family: 'Mina', sans-serif;
+	font-weight: 700;
+}
+.container h2 {
+	font-family: 'Mina', sans-serif;
+	font-size: 20px;
+}
+
+.heading {
+	background-color: #333333;
+	color: white;
+	padding: 5%;
+}
+.heading p {
+	text-align: justify;
+}
+.heading h2 {
+	text-align: right;
+}
+
+.contents {
+	text-align: center;
+}
+.contents img {
+	width: inherit;
+}
+.contents .row {
+	background-color: #333333;
+	width: inherit;
+	align-content: center;
+	display: inline-block;
+	height: 30px;
+}
+.contents div a {
+  color: white;
+  text-transform: uppercase;
+}
+.contents div a:hover {
+	font-size: 1.2em;
+}
+
+.notice {
+	color: #333333;
+}
+.notice h2 {
+	font-weight: 700;
+}
+.notice .left {
+	text-align: left;
+}
+.notice .right {
+	text-align: right;
+}
+.notice img {
+	padding-left: 15px;
+	float: right;
+}
+
+.footer {
+	background-color: #333333;
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
