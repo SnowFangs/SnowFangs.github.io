@@ -1,5 +1,17 @@
-body {
-	border-top: solid 25px #333333;
+body {}
+/* TABLE OF CONTENTS */
+/*
+			Line
+			Container
+
+			Heading
+			Sheets
+			Notice
+			Footer
+*/
+.line {
+	background-color: #333333;
+	height: 30px;
 }
 
 .container {
@@ -19,32 +31,33 @@ body {
 	color: white;
 	padding: 5%;
 }
-.heading p {
-	text-align: justify;
-}
 .heading h2 {
 	text-align: right;
 }
+.heading p {
+	text-align: justify;
+}
 
-.contents {
+.sheets {
 	text-align: center;
 }
-.contents img {
+.sheets img {
 	width: inherit;
 }
-.contents .row {
+.sheets .row {
 	background-color: #333333;
-	width: inherit;
-	align-content: center;
 	display: inline-block;
+	width: inherit;
 	height: 30px;
 }
-.contents div a {
-  color: white;
-  text-transform: uppercase;
-}
-.contents div a:hover {
+.sheets .row:hover {
+	background-color: rgba(33,33,33,0.8);
 	font-size: 1.2em;
+}
+.sheets div a {
+	text-transform: uppercase;
+	text-decoration: none;
+  color: white;
 }
 
 .notice {
@@ -70,3 +83,8 @@ body {
 	margin-top: 10px;
 	color: white;
 }
+.footer p {
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+/*END*/
