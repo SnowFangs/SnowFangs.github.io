@@ -60,6 +60,19 @@ body {}
   color: white;
 }
 
+/*.extras {
+	background-color: #333333;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.extras h2 {
+	text-align: center;
+	color: white;
+}
+.extras img {
+	width: inherit;
+}*/
+
 .notice {
 	color: #333333;
 }
@@ -69,10 +82,16 @@ body {}
 .notice .left {
 	text-align: left;
 }
+.notice .mid {
+	text-align: center;
+}
+.notice .mid img {
+	width: inherit;
+}
 .notice .right {
 	text-align: right;
 }
-.notice img {
+.notice .right img {
 	padding-left: 15px;
 	float: right;
 }
@@ -80,7 +99,7 @@ body {}
 .footer {
 	background-color: #333333;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 25px;
 	color: white;
 }
 .footer p {
